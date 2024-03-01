@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+    <div class="container">
+        <div class="header">
+          <div class="nav">
+            <div class="navleft">
+                <img src="img/download.png" alt="">
+            </div>
+            <div class="navright">
+                <ul>
+                    <li>product</li>
+                    <li>service</li>
+                    <li>images</li>
+                    <li>contact</li>
+                    <li>details</li>
+                </ul>
+            </div>
+          </div>  
+
+        </div>
+    
+    <div class="section">
+
+      <div class="box1" onclick="showDetails('I-phone', '', '₹60000', 'iphone-15-finish-select-202309-6-1inch-green.jpeg')">
+        <img class="img" src="iphone-15-finish-select-202309-6-1inch-green.jpeg" alt="I-phone">
+        <div class="details">
+            <h3>i-phone</h3>
+            <p> i-phone.</p>
+            <p>₹60000</p>
+        </div>
+    </div>
+
+    <div class="box1" onclick="showDetails('I-phone', '', '₹60000', 'iphone-15-finish-select-202309-6-1inch-green.jpeg')">
+      <img class="img" src="iphone-15-finish-select-202309-6-1inch-green.jpeg" alt="I-phone">
+      <div class="details">
+          <h3>i-phone</h3>
+          <p> i-phone.</p>
+          <p>₹60000</p>
+      </div>
+  </div>
+
+  <div class="box1" onclick="showDetails('I-phone', '', '₹6000', 'iphone-15-finish-select-202309-6-1inch-green.jpeg')">
+    <img class="img" src="iphone-15-finish-select-202309-6-1inch-green.jpeg" alt="I-phone">
+    <div class="details">
+        <h3>i-phone</h3>
+        <p> i-phone.</p>
+        <p>₹60000</p>
+    </div>
+</div>
+
+<div class="box1" onclick="showDetails('I-phone', '', '₹60000', 'iphone-15-finish-select-202309-6-1inch-green.jpeg')">
+  <img class="img" src="iphone-15-finish-select-202309-6-1inch-green.jpeg" alt="I-phone">
+  <div class="details">
+      <h3>i-phone</h3>
+      <p> i-phone.</p>
+      <p>₹60000</p>
+  </div>
+</div>
+
+<div class="box1" onclick="showDetails('I-phone', '', '₹60000', 'iphone-15-finish-select-202309-6-1inch-green.jpeg')">
+  <img class="img" src="iphone-15-finish-select-202309-6-1inch-green.jpeg" alt="I-phone">
+  <div class="details">
+      <h3>i-phone</h3>
+      <p> i-phone.</p>
+      <p>₹60000</p>
+  </div>
+</div>
+
+<div class="box1" onclick="showDetails('I-phone', '', '₹60000', 'iphone-15-finish-select-202309-6-1inch-green.jpeg')">
+  <img class="img" src="iphone-15-finish-select-202309-6-1inch-green.jpeg" alt="I-phone">
+  <div class="details">
+      <h3>i-phone</h3>
+      <p> i-phone.</p>
+      <p>₹60000</p>
+  </div>
+</div>
+
+    </div>
+    
+    <div class="overlay" id="overlay">
+      <div class="popup">
+          <span class="close-btn" onclick="hideDetails()">&times;</span>
+          <img class="product-popup-img" id="product-popup-img" src="" alt="Product Image">
+          <h2 id="product-title"></h2>
+          <p id="product-description"></p>
+          <p id="product-price"></p>
+          <p><button>Add to Cart</button></p>
+
+      </div>
+  </div>
+</div>
+
+<form onsubmit="handleSubmitBit(event)" id="contact"><br><br>
+  <label for="username">Username</label>
+  <input type="text" name="username" id="username" /><br><br>
+
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email" /><br><br>
+
+  <label for="phone">Phone No</label>
+  <input type="tel" name="phone" id="phone" /><br><br>
+
+  <button type="submit">Submit</button>
+
+</form>
+
+
+    <div class="footer">
+      <h1>welcome to Oilab</h1>
+    </div>
+  </div>
+  <script src="connect.js"></script>
+</body>
+</html>
